@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>幸 - Coo Company</title>
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a href="index.html">
+        <h1>
+          <img src="img/logo.png" alt="幸-Coo Company" width="75" height="75">
+        </h1>
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="tel:0120-000-000">
+              <i class="bi bi-telephone"></i>
+              TEL
+            </a>
+          </li>
+          <li>
+            <a href="#" id="open-menu">
+              <i class="bi bi-list"></i>
+              MENU
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ 
+  <div class="overlay">
+    <i class="bi bi-x-circle" id="close-menu"></i>
+    <nav>
+      <ul>
+        <li><a href="index.html">トップページ</a></li>
+        <li><a href="#">製造工程</a></li>
+        <li><a href="#">関連会社</a></li>
+        <li><a href="company.html">会社概要</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="mask disable"></div>
+
+  <div id="target"></div>
+
+  <section class="company">
+    <div class="container">
+      <h1>会社案内</h1>
+      <table>
+        <tbody>
+          <tr>
+            <th>商号</th>
+            <td>幸Coo-Company21</td>
+          </tr>
+          <tr>
+            <th>事業開始</th>
+            <td>2022年4月</td>
+          </tr>
+          <tr>
+            <th>事業所所在地</th>
+            <td>〒000-0000<br>熊本県熊本市00-00</td>
+          </tr>
+          <tr>
+            <th>代表取締役</th>
+            <td>有馬 幸子</td>
+          </tr>
+          <tr>
+            <th>資本金</th>
+            <td>300万円</td>
+          </tr>
+          <tr>
+            <th>従業員数</th>
+            <td>00名</td>
+          </tr>
+          <tr>
+            <th>主な事業内容</th>
+            <td>通信販売サービス<br>エステサービス</td>
+          </tr>
+          <tr>
+            <th>主要取引先</th>
+            <td>ドテラ株式会社<br>キムチ専門店大黒</td>
+          </tr>
+          <tr>
+            <th>問合せ番号</th>
+            <td>0120-000-000</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="call-to-action">
+    <h1>お電話でのご注文はこちら</h1>
+    <p><a href="tel:0120-000-000">0120-000-000</a></p>
+    <a href="#" class="btn">ネット注文はこちら</a>
+  </section>
+
+  <footer class="copyright">
+    <small>&copy; Coo Company21</small>
+  </footer>
+
+  <a href="#" id="to_top"><i class="bi bi-arrow-up-square-fill"></i></a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
