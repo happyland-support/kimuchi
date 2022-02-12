@@ -92,10 +92,10 @@ img {
 /* headerの余白 */
 
 .hero,
-.company {
+.company,
+.process {
   padding-top: 75px;
 }
-
 
 /* header */
 
@@ -275,7 +275,9 @@ header li + li {
 }
 
 .shop-info img {
-  width: 100%;
+  display: block;
+  width: 90%;
+  margin: 24px auto 0;
 }
 
 .shop-info p {
@@ -364,6 +366,42 @@ header li + li {
   margin-left: 32px;
 }
 
+/* process */
+
+.process .intro {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+.process h1,
+.shop-info h2 {
+  margin-top: 48px;
+  padding: 16px;
+  background: #f37777;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.process .pic {
+  padding: 24px;
+  min-width: 40%;
+}
+
+.process img {
+  width: 100%;
+}
+
+.process h2 {
+  padding: 16px 0;
+}
+
+.process section + section {
+  margin-top: 40px;
+}
+
 /* large screen */
 
 @media (min-width: 600px) {
@@ -398,6 +436,10 @@ header li + li {
 
   .animate.delay-more {
     transition-delay: .6s;
+  }
+  
+  .process section {
+    display: flex;
   }
 
 }
