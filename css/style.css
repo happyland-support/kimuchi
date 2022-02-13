@@ -259,6 +259,10 @@ header li + li {
   margin-top: 16px;
 }
 
+.voices footer img {
+  border-radius: 50%;
+}
+
 .voices section + section {
   margin-top: 16px;
 }
@@ -337,35 +341,6 @@ header li + li {
   color: #eee;
 }
 
-/* company */
-
-.company h1 {
-  border-left: 6px solid rgb(42, 163, 211);
-  padding: 8px;
-}
-
-.company table {
-  padding: 24px;
-}
-
-.company th,
-.company td {
-  vertical-align: top;
-  border-bottom: 1px dotted #ddd;
-  min-width: 150px;
-  padding: 15px 0;
-}
-
-.company th {
-  text-align: left;
-  font-weight: normal;
-  color: #666;
-}
-
-.company td {
-  margin-left: 32px;
-}
-
 /* process */
 
 .process .intro {
@@ -400,6 +375,35 @@ header li + li {
 
 .process section + section {
   margin-top: 40px;
+}
+
+/* company */
+
+.company h1 {
+  border-left: 6px solid rgb(42, 163, 211);
+  padding: 8px;
+}
+
+.company table {
+  padding: 24px;
+}
+
+.company th,
+.company td {
+  vertical-align: top;
+  border-bottom: 1px dotted #ddd;
+  min-width: 150px;
+  padding: 15px 0;
+}
+
+.company th {
+  text-align: left;
+  font-weight: normal;
+  color: #666;
+}
+
+.company td {
+  margin-left: 32px;
 }
 
 /* large screen */
