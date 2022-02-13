@@ -45,6 +45,7 @@ a {
 
 img {
   vertical-align: bottom;
+  width: 100%;
 }
 
 .container {
@@ -141,6 +142,19 @@ header li + li {
   margin-left: 16px;
 }
 
+header .pc-menu {
+  display: none;
+}
+
+header .pc-menu li a {
+  font-family: “HGP行書体”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+  font-size: 18px;
+}
+
+header .pc-menu li a.tel-style {
+  color: #E60012;
+}
+
 /* menu */
 
 .overlay {
@@ -200,7 +214,6 @@ header li + li {
 /* hero */
 
 .hero img {
-  width: 100%;
   height: 300px;
   object-fit: cover;
 }
@@ -220,10 +233,6 @@ header li + li {
 .features .pic {
   padding: 24px;
   min-width: 40%;
-}
-
-.features img {
-  width: 100%;
 }
 
 .features h2 {
@@ -261,6 +270,7 @@ header li + li {
 
 .voices footer img {
   border-radius: 50%;
+  width: 40px;
 }
 
 .voices section + section {
@@ -274,8 +284,13 @@ header li + li {
 }
 
 .shop-info h2 {
+  margin-top: 48px;
+  padding: 16px;
+  background: #f37777;
+  color: #fff;
+  font-size: 20px;
   text-align: center;
-  padding-bottom: 32px;
+  border-radius: 4px;
 }
 
 .shop-info img {
@@ -344,16 +359,15 @@ header li + li {
 /* process */
 
 .process .intro {
-  width: 85%;
+  width: 95%;
   display: block;
   margin: 0 auto;
 }
 
-.process h1,
-.shop-info h2 {
+.process h1 {
   margin-top: 48px;
   padding: 16px;
-  background: #f37777;
+  background: #77a9f3;
   color: #fff;
   font-size: 20px;
   text-align: center;
@@ -365,9 +379,9 @@ header li + li {
   min-width: 40%;
 }
 
-.process img {
+/* .process img {
   width: 100%;
-}
+} */
 
 .process h2 {
   padding: 16px 0;
@@ -382,10 +396,6 @@ header li + li {
 .company h1 {
   border-left: 6px solid rgb(42, 163, 211);
   padding: 8px;
-}
-
-.company table {
-  padding: 24px;
 }
 
 .company th,
@@ -409,6 +419,18 @@ header li + li {
 /* large screen */
 
 @media (min-width: 600px) {
+
+  header .pc-menu {
+    display: block;
+  }
+
+  header .pc-menu li {
+    margin-left: 32px;
+  }
+
+  header .sp-menu {
+    display: none;
+  }
 
   .features section {
     display: flex;
@@ -442,8 +464,16 @@ header li + li {
     transition-delay: .6s;
   }
   
+  .process .intro {
+    width: 85%;
+  }
+  
   .process section {
     display: flex;
+  }
+
+  .company table {
+    padding: 24px 64px;
   }
 
 }
