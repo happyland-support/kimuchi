@@ -94,7 +94,8 @@ img {
 
 .hero,
 .company,
-.process {
+.process,
+.associated {
   padding-top: 75px;
 }
 
@@ -236,6 +237,7 @@ header .pc-menu li a.tel-style {
 }
 
 .features h2 {
+  text-align: center;
   padding-bottom: 16px;
 }
 
@@ -379,16 +381,34 @@ header .pc-menu li a.tel-style {
   min-width: 40%;
 }
 
-/* .process img {
-  width: 100%;
-} */
-
 .process h2 {
   padding: 16px 0;
 }
 
 .process section + section {
   margin-top: 40px;
+}
+
+/* associated */
+
+.associated h1 {
+  text-align: center;
+  padding-bottom: 64px;
+}
+
+.associated .pic {
+  padding: 24px;
+  min-width: 40%;
+}
+
+.associated h2 {
+  text-align: center;
+  padding-bottom: 16px;
+}
+
+.associated section + section {
+  margin-top: 40px;
+  border-top: 1px solid #999;
 }
 
 /* company */
@@ -432,6 +452,10 @@ header .pc-menu li a.tel-style {
     display: none;
   }
 
+  .features h2 {
+    text-align: left;
+  }
+
   .features section {
     display: flex;
   }
@@ -470,6 +494,18 @@ header .pc-menu li a.tel-style {
   
   .process section {
     display: flex;
+  }
+
+  .associated h2 {
+    text-align: left;
+  }
+
+  .associated section {
+    display: flex;
+  }
+
+  .associated .desc {
+    padding: 24px;
   }
 
   .company table {
