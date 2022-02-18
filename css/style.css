@@ -92,10 +92,7 @@ img {
 
 /* headerの余白 */
 
-.hero,
-.company,
-.process,
-.associated {
+main {
   padding-top: 75px;
 }
 
