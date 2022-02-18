@@ -109,8 +109,13 @@ header {
 header .container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   transition: box-shadow .3s;
+  height: auto;
+  align-items: center;
+}
+
+header .container a {
+  align-items: flex-start;
 }
 
 header.scrolled {
