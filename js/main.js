@@ -51,7 +51,6 @@
   class Menu {
     constructor() {
       this.openMenu = document.getElementById('open-menu');
-      this.closeMenu = document.getElementById('close-menu');
       this.overlay = document.querySelector('.overlay');
       this.mask = document.querySelector('.mask');
     }
@@ -60,14 +59,10 @@
         this.overlay.classList.add('show');
         this.mask.classList.remove('disable')
       });
-    
-      this.closeMenu.addEventListener('click', () => {
+
+      this.mask.addEventListener('click', () => {
         this.overlay.classList.remove('show');
         this.mask.classList.add('disable');
-      });
-    
-      this.mask.addEventListener('click', () => {
-        this.closeMenu.click();
       });
     }
   }

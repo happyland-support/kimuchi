@@ -39,8 +39,12 @@ p + p {
 
 a {
   text-decoration: none;
-  color: inherit;
+  color: #333;
   transition: opacity .3s;
+}
+
+a:hover {
+  opacity: .5;
 }
 
 img {
@@ -126,10 +130,6 @@ header ul {
   display: flex;
 }
 
-header a:hover {
-  opacity: 0.5;
-}
-
 header li a {
   display: flex;
   flex-direction: column;
@@ -172,8 +172,11 @@ header .pc-menu li a.tel-style {
   pointer-events: none;
 }
 
-.overlay ul {
-  margin-top: 64px;
+.overlay h1 {
+  font-size: 16px;
+  padding: 16px;
+  background: #333;
+  color: #fff;
 }
 
 .overlay ul li {
@@ -181,21 +184,19 @@ header .pc-menu li a.tel-style {
 }
 
 .overlay ul li a {
+  font-size: 14px;
   display: block;
   padding: 16px;
+}
+
+.overlay li a i {
+  position: absolute;
+  right: 10px;
 }
 
 .overlay.show {
   right: 0;
   pointer-events: auto;
-}
-
-.overlay #close-menu {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  font-size: 32px;
-  cursor: pointer;
 }
 
 /* mask */
@@ -414,11 +415,6 @@ header .pc-menu li a.tel-style {
 }
 
 /* company */
-
-.company h1 {
-  border-left: 6px solid rgb(42, 163, 211);
-  padding: 8px;
-}
 
 .company th,
 .company td {
