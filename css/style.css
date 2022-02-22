@@ -49,7 +49,6 @@ a:hover {
 
 img {
   vertical-align: bottom;
-  width: 100%;
 }
 
 .container {
@@ -218,6 +217,7 @@ header .pc-menu li a.tel-style {
 /* hero */
 
 .hero img {
+  width: 100%;
   height: 300px;
   object-fit: cover;
 }
@@ -232,6 +232,10 @@ header .pc-menu li a.tel-style {
 .features h1 {
   text-align: center;
   padding-bottom: 64px;
+}
+
+.features img {
+  width: 100%;  
 }
 
 .features .pic {
@@ -280,32 +284,6 @@ header .pc-menu li a.tel-style {
 
 .voices section + section {
   margin-top: 16px;
-}
-
-/* shop-info */
-
-.shop-info {
-  padding: 32px 0;
-}
-
-.shop-info h2 {
-  margin-top: 48px;
-  padding: 16px;
-  background: #77a9f3;
-  color: #fff;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 4px;
-}
-
-.shop-info img {
-  display: block;
-  width: 90%;
-  margin: 24px auto 0;
-}
-
-.shop-info p {
-  text-align: center;
 }
 
 /* call-to-action */
@@ -369,14 +347,22 @@ header .pc-menu li a.tel-style {
   margin: 0 auto;
 }
 
-.process h1 {
+.process h1,
+.shop-info h2 {
   margin-top: 48px;
   padding: 16px;
-  background: #f37777;
   color: #fff;
   font-size: 20px;
   text-align: center;
   border-radius: 4px;
+}
+
+.process h1 {
+  background: #f37777;
+}
+
+.process img {
+  width: 100%;
 }
 
 .process .pic {
@@ -392,11 +378,35 @@ header .pc-menu li a.tel-style {
   margin-top: 40px;
 }
 
+/* shop-info */
+
+.shop-info {
+  margin-bottom: 32px;
+}
+
+.shop-info h2 {
+  background: #77a9f3;
+}
+
+.shop-info img {
+  width: 90%;
+  display: block;
+  margin: 24px auto 0;
+}
+
+.shop-info p {
+  text-align: center;
+}
+
 /* associated */
 
 .associated h1 {
   text-align: center;
   padding-bottom: 64px;
+}
+
+.associated img {
+  width: 100%;
 }
 
 .associated .pic {
@@ -415,6 +425,10 @@ header .pc-menu li a.tel-style {
 }
 
 /* company */
+
+.company img {
+  width: 100%;
+}
 
 .company th,
 .company td {
