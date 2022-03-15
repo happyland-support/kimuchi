@@ -398,6 +398,18 @@ header .pc-menu li a.tel-style {
   text-align: center;
 }
 
+/* garally */
+
+.garally {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.garally img {
+  width: calc((100% - 8px) / 2);
+}
+
 /* associated */
 
 .associated h1 {
@@ -506,6 +518,10 @@ header .pc-menu li a.tel-style {
   
   .process section {
     display: flex;
+  }
+
+  .garally img {
+    width: calc((100% - 16px) / 3);
   }
 
   .associated h2 {
