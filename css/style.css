@@ -406,8 +406,12 @@ header .pc-menu li a.tel-style {
   gap: 8px;
 }
 
-.garally img {
+.garally article {
   width: calc((100% - 8px) / 2);
+}
+
+.garally article img {
+  width: 100%;
 }
 
 /* associated */
@@ -520,7 +524,7 @@ header .pc-menu li a.tel-style {
     display: flex;
   }
 
-  .garally img {
+  .garally article {
     width: calc((100% - 16px) / 3);
   }
 
