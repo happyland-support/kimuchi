@@ -414,6 +414,15 @@ header .pc-menu li a.tel-style {
   width: 100%;
 }
 
+.garally h1 {
+  font-size: 15px;
+  margin: 8px auto;
+}
+
+.garally p {
+  font-size: 14px;
+}
+
 /* associated */
 
 .associated h1 {
